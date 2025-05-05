@@ -1,0 +1,62 @@
+.counter-container {
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    color: #26b000;
+
+}
+
+.counter-display {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.decrement{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ff4d4d5c;
+}
+
+.decrement:hover {
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: bold;
+    }
+
+.reset {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #0000005c;
+}
+
+.reset:hover {
+    background-color: #00000075;
+    color: white;
+    font-weight: bold;
+    }
+
+.increment {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #50ff4d5c;
+}
+
+.increment:hover {
+    background-color: #0dff00;
+    color: white;
+    font-weight: bold;
+}
